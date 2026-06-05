@@ -1,0 +1,152 @@
+<style>
+.Games-links {
+    padding: 0 0 0 100px;
+}
+
+body {
+    margin: 0;
+
+    .mirza-regular {
+        font-family: "Mirza", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .mirza-medium {
+        font-family: "Mirza", serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .mirza-semibold {
+        font-family: "Mirza", serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .mirza-bold {
+        font-family: "Mirza", serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+}
+
+.hander {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 15px;
+    color: white;
+    background-color: oklch(49.488% 0.18828 260.248);
+}
+
+.hander-link a {
+
+    color: white;
+    padding: 0px 25px;
+    text-decoration: none;
+    display: block;
+}
+
+.hander-link a:hover {
+    background-color: #0091ff;
+    border-radius: 15px;
+}
+
+.hander-link button {
+    background-color: hsl(312, 38%, 66%);
+    border-radius: 50px;
+    color: white;
+    border: 0;
+    padding: 5px 15px;
+}
+
+.hander-link button:hover {
+    background-color: lab(67.64% -8.46 -50.25);
+}
+
+.sarsh input {
+    border-radius: 50px;
+    border: none;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px 20px 10px;
+    background-color: oklch(49.488% 0.18828 260.248);
+    color: white;
+    flex-direction: row-reverse;
+}
+
+.content-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.content {
+    background-color: oklch(49.488% 0.18828 260.248);
+    padding: 0 35px 0 25px;
+}
+
+.sarsh button {
+    border-radius: 50px;
+    border: none;
+    height: 30px;
+    padding: 5px 20px;
+}
+
+/*responsivness*/
+/*medium screen + tablet*/
+@media(max-width: 1000px) {
+    .content {
+        background-color: oklch(49.488% 0.18828 260.248);
+        border: 0;
+        width: 90%;
+        padding: 5%;
+    }
+
+    .hander-link a {
+        margin-right: 20px;
+        padding: 8px;
+    }
+
+    .content-side {
+        font-size: 40%;
+    }
+}
+
+/*mobaile*/
+@media(max-width: 690px) {
+    .content {
+        background-color: oklch oklch(49.488% 0.18828 260.248) border: 0;
+        width: 90%;
+        padding: 5%;
+    }
+
+    .hander-link a {
+        margin-right: 15px;
+        padding: 3px;
+    }
+
+    .content-side {
+        font-size: 40%;
+
+    }
+    .hero-section {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+</style>
